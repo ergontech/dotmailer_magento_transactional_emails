@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dotmailer_Smtp>
+            <version>0.0.1</version>
+        </Dotmailer_Smtp>
+    </modules>
+</config>
