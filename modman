@@ -1,0 +1,2 @@
+code/community/Dotmailer/Smtp               app/code/community/Dotmailer/Smtp
+etc/modules/Dotmailer_Smtp.xml              app/etc/modules/Dotmailer_Smtp.xml
