@@ -12,7 +12,7 @@ Don't forget to enable symlinks in:
 `System->Configuration->Advanced->Developer->Template Settings`
 
 Core files overriten
-====
+----
 * Mage_Core_Model_Email_Template
 * Mage_Core_Model_Email
 
