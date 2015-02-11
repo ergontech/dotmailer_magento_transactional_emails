@@ -58,9 +58,8 @@ class Dotmailer_Smtp_Model_Email_Template extends Mage_Core_Model_Email_Template
 			Zend_Mail::setDefaultTransport($mailTransport);
 		}
 
-		//@todo email names are removed
 		foreach ($emails as $key => $email) {
-			$mail->addTo($email);
+			$mail->addTo($email, '=?utf-8?B?' . base64_encode($names[$key]) . '?=');
 		}
 
 		$this->setUseAbsoluteLinks(true);

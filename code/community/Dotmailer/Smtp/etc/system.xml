@@ -1,7 +1,20 @@
 <?xml version="1.0"?>
 <config>
+    <tabs>
+        <connector translate="label" module="dotmailer_smtp">
+            <label>EMAIL</label>
+            <sort_order>1000</sort_order>
+        </connector>
+    </tabs>
     <sections>
-        <connector_transactional_emails translate="label" module="connector">
+        <connector_transactional_emails translate="label" module="dotmailer_smtp">
+            <label>Transactional Emails</label>
+            <tab>connector</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>9000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
             <groups>
                 <dotmailer_smtp translate="label" module="dotmailer_smtp">
                     <label>Dotmailer SMTP</label>
