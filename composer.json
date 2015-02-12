@@ -1,0 +1,12 @@
+{
+  "name": "dotmailer/smtp",
+  "type": "magento-module",
+  "description": "Dotmailer Magento SMTP",
+  "homepage": "https://github.com/dotmailer/dotmailer_magento_transactional_emails.git",
+  "authors": [
+    {
+      "name": "Calin Diacon",
+      "email": "calin.diacon@dotmailer.com"
+    }
+  ]
+}
