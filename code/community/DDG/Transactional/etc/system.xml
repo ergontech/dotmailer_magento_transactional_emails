@@ -17,7 +17,7 @@
             <show_in_store>0</show_in_store>
             <groups>
                 <ddg_transactional translate="label" module="ddg_transactional">
-                    <label>Dotmailer SMTP</label>
+                    <label>DDG Transactional</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>9000</sort_order>
                     <show_in_default>1</show_in_default>
