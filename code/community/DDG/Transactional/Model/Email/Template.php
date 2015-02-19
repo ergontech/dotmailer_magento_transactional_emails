@@ -1,15 +1,15 @@
 <?php
 
-class Dotmailer_Smtp_Model_Email_Template extends Mage_Core_Model_Email_Template
+class Ddg_Transactional_Model_Email_Template extends Mage_Core_Model_Email_Template
 {
 
 	public function send($email, $name = null, array $variables = array())
 	{
 
-		$_helper = Mage::helper('dotmailer_smtp');
+		$_helper = Mage::helper('ddg_transactional');
 		// If it's not enabled, just return the parent result.
 		if (!$_helper->isEnabled()) {
-			Mage::log('DM SMTP is not enabled, fall back to parent class');
+			Mage::log('DDG Transactional is not enabled, fall back to parent class');
 			return parent::send($email, $name, $variables);
 		}
 

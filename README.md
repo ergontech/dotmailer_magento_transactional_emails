@@ -1,4 +1,4 @@
-Dotmailer SMTP
+DDG Transactional
 ==========================================
 
 This module uses modman

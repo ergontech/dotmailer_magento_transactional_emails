@@ -1,7 +1,7 @@
 {
-  "name": "dotmailer/smtp",
+  "name": "ddg/transactional",
   "type": "magento-module",
-  "description": "Dotmailer Magento SMTP",
+  "description": "DDG Transactional Magento",
   "homepage": "https://github.com/dotmailer/dotmailer_magento_transactional_emails.git",
   "authors": [
     {

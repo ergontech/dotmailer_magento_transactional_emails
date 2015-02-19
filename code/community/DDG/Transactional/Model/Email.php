@@ -1,12 +1,12 @@
 <?php
 
-class Dotmailer_Smtp_Model_Email extends Mage_Core_Model_Email
+class DDG_Transactional_Model_Email extends Mage_Core_Model_Email
 {
 
 	public function send() {
 
 
-		if ( ! Mage::helper('dotmailer_smtp')->isEnabled() ) {
+		if ( ! Mage::helper('ddg_transactional')->isEnabled() ) {
 			return parent::send();
 		}
 
@@ -26,7 +26,7 @@ class Dotmailer_Smtp_Model_Email extends Mage_Core_Model_Email
 		     ->addTo($this->getToEmail(), $this->getToName())
 		     ->setSubject($this->getSubject());
 
-		$transport = Mage::helper( 'dotmailer_smtp' )->getTransport();
+		$transport = Mage::helper('ddg_transactional')->getTransport();
 
 		$mail->send($transport);
 

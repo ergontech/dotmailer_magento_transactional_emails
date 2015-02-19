@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Dotmailer_Smtp>
+        <DDG_Transactional>
             <active>true</active>
             <codePool>community</codePool>
-        </Dotmailer_Smtp>
+        </DDG_Transactional>
     </modules>
 </config>

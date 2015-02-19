@@ -1,2 +1,2 @@
-code/community/Dotmailer/Smtp               app/code/community/Dotmailer/Smtp
-etc/modules/Dotmailer_Smtp.xml              app/etc/modules/Dotmailer_Smtp.xml
+code/community/DDG/Transactional               app/code/community/DDG/Transactional
+etc/modules/DDG_Transactional.xml              app/etc/modules/DDG_Transactional.xml
