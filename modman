@@ -1,2 +1,2 @@
-code/community/DDG/Transactional               app/code/community/DDG/Transactional
+code/community/Ddg/Transactional               app/code/community/Ddg/Transactional
 etc/modules/DDG_Transactional.xml              app/etc/modules/DDG_Transactional.xml

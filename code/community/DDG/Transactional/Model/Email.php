@@ -1,6 +1,6 @@
 <?php
 
-class DDG_Transactional_Model_Email extends Mage_Core_Model_Email
+class Ddg_Transactional_Model_Email extends Mage_Core_Model_Email
 {
 
 	public function send() {

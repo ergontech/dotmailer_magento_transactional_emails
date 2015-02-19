@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <DDG_Transactional>
+        <Ddg_Transactional>
             <active>true</active>
             <codePool>community</codePool>
-        </DDG_Transactional>
+        </Ddg_Transactional>
     </modules>
 </config>
